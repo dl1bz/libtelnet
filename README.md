@@ -1,12 +1,9 @@
-[![Actions Status](https://github.com/seanmiddleditch/libtelnet/workflows/CI/badge.svg)](https://github.com/seanmiddleditch/libtelnet/actions)
-
 libtelnet - TELNET protocol handling library
 ============================================
 
- http://github.com/seanmiddleditch/libtelnet
+Original source: http://github.com/seanmiddleditch/libtelnet
 
- Sean Middleditch and contributors
-
+Sean Middleditch and contributors
 
 The author or authors of this code dedicate any and all copyright
 interest in this code to the public domain. We make this dedication
@@ -15,6 +12,15 @@ heirs and successors. We intend this dedication to be an overt act of
 relinquishment in perpetuity of all present and future rights to this
 code under copyright law.
 
+0. Code rework in 2025
+----------------------
+
+Because the original source was very old, I updated some code parts for
+compiling in modern environments. I also add the option for build this
+library as dynamic library in addition to the static library option as default.
+
+Heiko Amft <dl1bz@bzsax.de>
+November, 6th 2025
 
 I. Introduction
 ---------------

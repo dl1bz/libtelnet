@@ -1,0 +1,4 @@
+USE:
+clang dxc_gtk_libtelnet.c \
+  `pkg-config --cflags --libs gtk+-3.0 gio-2.0 libtelnet` \
+  -o dxc_gtk
