@@ -19,6 +19,11 @@ endif()
 # EIN Target; Typ via -DBUILD_SHARED_LIBS=ON|OFF
 add_library(telnet libtelnet.c)
 
+# .a (bzw. statische Lib) im Projekt-Stammverzeichnis ablegen
+set_target_properties(telnet PROPERTIES
+  ARCHIVE_OUTPUT_DIRECTORY "${CMAKE_SOURCE_DIR}"
+)
+
 target_include_directories(telnet
   PUBLIC
     $<INSTALL_INTERFACE:include>
